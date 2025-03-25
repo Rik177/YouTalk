@@ -1,0 +1,33 @@
+:root {
+    --color-background: #FFFFFF;
+    --color-text-primary: #333333;
+    --color-text-secondary: #9D9D9D;
+    --color-header-button-bg: #E3F5F5;
+    --color-header-button-text: #03B2A5;
+
+    --color-primary-button: #35B3A9;
+    --color-secondary-button: #16C8BB;
+
+    --color-categories-border: #C1C5CD;
+    --color-categories-selected-bg: #F9FDFD;
+    --color-text-author: #494949;
+    --color-articles-border: #DEDEDE;
+    --color-tags-bg: rgba(255, 255, 255, 70%);
+    --color-article-notes: #868686;
+    --color-breadcrumbs: rgba(51, 51, 51, 70%);
+    --color-footer-bg: #2963A3;
+    --color-header-border: #EFF5FB;
+
+    --color-quote-bg: #F3F7FE;
+
+    --color-aside-article-bg: #E6F0FD;
+    --color-aside-neutrals: #A2A7B1;
+    --color-aside-text: #011632;
+    --color-aside-tags-bg: rgba(243, 244, 248, 70%);
+    --color-exercise-orangeWhite: #FFF3EB;
+    --color-exercise-yellowWhite: #FEFAEC;
+    --color-exercise-lightGreen: rgba(3, 178, 165, 10%);
+
+    --font-family-primary: "MontSerrat", sans-serif;
+    --font-family-secondary: "OpenSans", sans-serif;
+}

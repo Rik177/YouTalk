@@ -1,0 +1,17 @@
+.wrapper {
+    min-height: 100%;
+    width: auto;
+    overflow: hidden;
+}
+
+.container {
+    padding: 0 8.33vw;
+    margin: 0 auto;
+    /* width: 83.33%; */
+}
+
+@media (max-width: 1165px) {
+    .container {
+        padding: 0 32px;
+    }
+}
