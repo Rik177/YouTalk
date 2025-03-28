@@ -1,7 +1,7 @@
 .wrapper {
     min-height: 100%;
     width: auto;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .container {
@@ -13,7 +13,7 @@
 
 @media (max-width: 1165px) {
     .container {
-        padding: 0 32px;
+        padding: 0 3.12vw;
     }
 }
 

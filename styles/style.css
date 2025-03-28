@@ -4,10 +4,6 @@
 @import url(utils.css);
 @import url(variables.css);
 
-
-.main {
-}
-
 .main__container {
     margin-top: 16px;
     display: flex;
