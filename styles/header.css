@@ -14,16 +14,18 @@
 }
 
 .header__logo {
-    margin-right: 3.54vw;
+    margin-right: min(3.54vw, 51px);;
 }
 
 .header__nav {
     margin-right: auto;
+
 }
 
 .nav__list {
     display: flex;
-    column-gap: 2.08vw;
+    column-gap: min(2.08vw, 20px);
+    /* max-width: 100%; */
 }
 
 .nav__list-item {
