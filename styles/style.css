@@ -4,6 +4,14 @@
 @import url(utils.css);
 @import url(variables.css);
 
+
+.main {
+    background-image: url(../images/background-image.png);
+    background-repeat: no-repeat;
+    background-position: 0 309px;
+    background-size: cover;
+}
+
 .main__container {
     margin-top: 16px;
     display: flex;
@@ -133,6 +141,7 @@
     background-color: var(--color-tags-bg);
     border-radius: 24px;
     align-self: flex-start;
+    margin-right: 8px;
 }
 
 .main__article-info {
@@ -177,6 +186,12 @@
 
 .main__button:hover {
     transform: scale(1.2);
+}
+
+@media (max-width: 1024px) {
+    .main {
+        background-image: none;
+    }
 }
 
 @media (max-width: 768px) {
