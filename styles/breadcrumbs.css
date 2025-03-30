@@ -1,0 +1,25 @@
+.breadcrumbs {
+    display: flex;
+    letter-spacing: 0.25px;
+    column-gap: 4px;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.breadcrumbs__item + .breadcrumbs__item::before {
+    content: url(../images/pagination-arrow.svg);
+    height: 16px;
+}
+
+.breadcrumbs__link {
+    color: var(--color-breadcrumbs);
+    transition: 0.2s;
+}
+
+.breadcrumbs__link:hover {
+    color: var(--color-text-primary);
+}
