@@ -1,3 +1,204 @@
+.main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 16px;
+}
+
+.main-unit__text {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.main-unit__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    
+}
+
 .main-unit__title {
-    margin-top: 54px;
+    margin-top: 30px;
+    margin-bottom: -8px;
+}
+
+.main-unit__data {
+    display: flex;
+    color: var(--color-text-author);
+    column-gap: 8px;
+}
+
+.main-unit__author {
+    display: flex;
+    column-gap: 8px;
+}
+
+.main-unit__author:after {
+    content: "\00B7";
+}
+
+.main-unit__image {
+}
+
+.main-unit__contents {
+    
+}
+
+.main-unit__contents-title {
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.main-unit__list {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.main-unit__list-item {
+    
+}
+
+.main-unit__list-item:before {
+    content: url(../images/list-disk.svg);
+}
+
+.main-unit__list-link {
+    text-decoration: dashed;
+    border-bottom: 1px solid;
+    transition: 0.1s;
+}
+
+.main-unit__list-link:hover {
+    color: var(--color-content-link-hover);
+}
+
+.main-unit__list--underlist {
+    padding-left: 56px;
+}
+
+.main-unit__underlist-item {
+    
+}
+
+
+.main-unit__intro {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.main-unit__section-title {
+    
+}
+
+.main-unit__text {
+}
+
+.main-unit__intro-quote {
+    background-color: var(--color-quote-bg);
+    padding: 24px;
+    border-radius: 16px;
+    background-image: url(../images/Unit/quote-background.svg);
+    background-repeat: no-repeat;
+    background-position: 24px 24px;
+}
+
+
+.main-unit__quote-text {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.main-unit__quote-author {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.main-unit__info {
+}
+.main-unit__variants {
+}
+.main-unit__variants-item {
+}
+.main-unit-figure {
+}
+.main-unit__info-image {
+}
+.main-unit__caption {
+}
+.main-unit__info-quote {
+}
+.main-unit__advise {
+}
+.main-unit__task {
+}
+.main-unit__task-title {
+}
+.main-unit__advise-cards {
+}
+.main-unit__advice-card {
+}
+.tag-links {
+}
+.tag-links__item {
+}
+.tag-links__link {
+}
+.main-unit__help {
+}
+.main-unit__help-title {
+}
+.main-unit__help-paragraph {
+}
+.main-unit__button {
+}
+.aside {
+}
+.aside__container {
+}
+.aside__article {
+}
+.aside__image {
+}
+.aside__heading {
+}
+.aside__paragraph {
+}
+.aside__button {
+}
+.aside__specialist-info {
+}
+.aside__tags {
+}
+.aside__tags-item {
+}
+.aside__specialist-name {
+}
+.aside__profession {
+}
+.aside__years {
+}
+.aside__expirience {
+}
+.aside__age {
+}
+.aside__specialist-skills {
+}
+.aside__title {
+}
+.aside__list {
+}
+.aside__list-item {
+}
+.aside__span {
+}
+.aside__heading--blue {
+}
+.aside__price {
+}
+.aside__button--short {
 }
