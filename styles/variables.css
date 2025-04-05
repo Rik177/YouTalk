@@ -25,11 +25,17 @@
     --color-caption: #868686; 
 
     --color-tag-links: #2963A3;
+    --color-aside-title-last: #2963A3;
 
     --color-aside-article-bg: #E6F0FD;
-    --color-aside-neutrals: #A2A7B1;
+    --color-aside-years: #A2A7B1;
     --color-aside-text: #011632;
     --color-aside-tags-bg: rgba(243, 244, 248, 70%);
+
+    --color-aside-bg-third: #2963A3;
+
+    --color-shadow: rgba(0, 0, 0, 25%);
+
     --color-task-first: #FEFAEC;
     --color-task-second: #FFF3EB;
     --color-task-third: rgba(3, 178, 165, 10%);

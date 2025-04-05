@@ -2,12 +2,14 @@
     display: flex;
     letter-spacing: 0.25px;
     column-gap: 4px;
+    overflow: hidden;
 }
 
 .breadcrumbs__item {
     display: flex;
     align-items: center;
     gap: 7px;
+    
 }
 
 .breadcrumbs__item + .breadcrumbs__item::before {
@@ -18,6 +20,9 @@
 .breadcrumbs__link {
     color: var(--color-breadcrumbs);
     transition: 0.2s;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
 }
 
 .breadcrumbs__link:hover {
