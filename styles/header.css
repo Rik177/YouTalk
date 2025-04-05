@@ -25,12 +25,10 @@
 .nav__list {
     display: flex;
     column-gap: min(2.08vw, 20px);
-    /* max-width: 100%; */
 }
 
 .nav__list-item {
     white-space: nowrap;
-    /* flex-shrink: 2; */
 }
 
 .nav__popup-link {
@@ -48,6 +46,10 @@
     text-decoration: underline;
 }
 
+.nav__list-link:focus{
+    box-shadow: 0 0 5px 5px var(--shadow-focused);
+}
+
 .header__button {
     font-weight: 700;
     color: var(--color-header-button-text);
@@ -61,6 +63,10 @@
 
 .header__button:hover {
     transform: scale(1.1);
+}
+
+.header__button:focus {
+    box-shadow: 0 0 5px 5px var(--shadow-focused);
 }
 
 .header__burger {
