@@ -1,5 +1,5 @@
 .unit-button {
-    color: var(--color-background);
+    color: var(--color-text-light);
     background-color: var(--color-secondary-button);
     border-radius: 4px;
     font-weight: 700;
@@ -404,7 +404,7 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
-    color: var(--color-background);
+    color: var(--color-text-light);
     text-align: center;
     white-space: wrap;
 }
@@ -429,7 +429,7 @@
 }
 
 .aside__offer-text {
-    font-family: OpenSans, sans-serif;
+    font-family: var(--font-family-secondary);
     line-height: 20px;
 }
 

@@ -26,7 +26,7 @@
 .footer__link {
     font-weight: bold;
     font-size: 16px;
-    color: var(--color-background);
+    color: var(--color-text-light);
     transition: 0.2s;
 }
 
@@ -48,7 +48,7 @@
 .footer__form {
     font-weight: bold;
     font-size: 18px;
-    color: var(--color-background);
+    color: var(--color-text-light);
     margin: 0 21px;
 }
 
@@ -135,11 +135,11 @@
 }
 
 .footer__commerical-link:hover {
-    color: var(--color-background);
+    color: var(--color-text-light);
 }
 
 .footer__commerical-link:focus {
-    color: var(--color-background);
+    color: var(--color-text-light);
 }
 
 @media (max-width: 1024px) {
