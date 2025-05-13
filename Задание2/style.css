@@ -1,0 +1,33 @@
+.wrapper {
+    min-height: 100%;
+    width: auto;
+    
+}
+
+.container {
+    padding: 0 60px;
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 200px;
+    height: 45px;
+    margin-top: 30vh;
+    border: 0;
+    background-color: rgb(208, 188, 232);
+    color: #FFFFFF;
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(177, 149, 208);
+}
+
+.button:active {
+    transform: scale(0.9);
+}
