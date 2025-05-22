@@ -1,0 +1,135 @@
+@import url(utils.css);
+@import url(variables.css);
+@import url(fonts.css);
+@import url(globals.css);
+
+.main {
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.main__container {
+    display: flex;
+    gap: 50px;
+    padding-top: 107px;
+    padding-bottom: 123.72px;
+}
+
+.main__about {
+    align-self: flex-end;
+    /* height: 482px; */
+}
+
+.main__title {
+    font-size: 27px;
+    letter-spacing: -7%;
+    line-height: 138.6%;
+    margin-bottom: 34px;
+}
+
+.main__title-span {
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+}
+
+.main__title-span:last-child::after {
+    content: "";
+    width: 92px;
+    height: 1px;
+    background-color: currentColor;
+}
+
+.main__paragraph {
+    font-size: 14px;
+    line-height: 191%;
+    margin-bottom: 42px;
+}
+
+.main__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    margin-bottom: 75px;
+}
+
+.main__list-title {
+    margin-bottom: 9px;
+}
+
+.main__list-info {
+    line-height: 163.7%;
+}
+
+.main__controls {
+    display: flex;
+    column-gap: 29.5px;
+}
+
+.controls__prev-button {
+    
+}
+
+.controls__pagination {
+    display: flex;
+    column-gap: 17.54px;
+}
+
+.controls__pagination-button {
+    width: 9.57px;
+    height: 9.57px;
+    border-radius: 30px;
+    background-color: var(--color-not-active);
+    transition: 0.2s;
+}
+
+.controls__pagination-button--active {
+    background-color: var(--color-active);
+}
+
+.main__slider {
+    display: flex;
+    flex-direction: column;
+    row-gap: 45.36px;
+}
+
+.slider__tabs {
+    display: flex;
+    column-gap: 61px;
+    /* position: relative; */
+}
+
+.slider__tabs-item {
+    /* position: relative; */
+
+}
+
+.slider__tabs-button {
+    color: var(--color-not-active);
+    position: relative;
+    
+}
+
+.slider__tabs-button--active {
+    color: var(--color-text-primary);
+}
+
+.slider__tabs-underline {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: currentColor;
+    transition: all 0.3s ease;
+}
+
+
+.slider__image {
+    width: 679px;
+    height: 482px;
+}
+
+

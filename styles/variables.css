@@ -1,0 +1,7 @@
+:root {
+    --color-background: #131313;
+    --color-text-primary: #E3B873;
+    --color-text-secondary: #FFFFFF;
+    --color-active: #FFFFFF;
+    --color-not-active: rgba(255, 255, 255, 30%);
+}
