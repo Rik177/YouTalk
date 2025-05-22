@@ -87,10 +87,7 @@ let resizeTimer;
 window.addEventListener("resize", () => {
     underline.style.transition = "none";
     underlineHandler(tabs[index]);
-
     clearTimeout(resizeTimer);
-
-    
     resizeTimer = setTimeout(() => {
         underline.style.transition = "left 0.3s ease";
     }, 200);
