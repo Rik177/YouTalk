@@ -87,7 +87,8 @@ tabsGroup.appendChild(underline);
 
 pagination.forEach((dot, i) => { 
     dot.addEventListener("click", () => { 
-        setImage(i);
+        index = i;
+        setImage(index);
         underlineHandler(tabs[index]);
     });
 })
@@ -99,7 +100,7 @@ window.addEventListener("resize", () => {
     underlineHandler(tabs[index]);
 
     clearTimeout(resizeTimer);
-    
+
     resizeTimer = setTimeout(() => {
         underline.style.transition = "left 0.3s ease";
     }, 200);
