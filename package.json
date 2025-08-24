@@ -1,0 +1,14 @@
+{
+  "name": "youtalk-blog",
+  "version": "1.0.0",
+  "description": "YouTalk blog website",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build completed - static files ready'",
+    "start": "echo 'Static site - open index.html in browser'",
+    "dev": "echo 'Development mode - open index.html in browser'"
+  },
+  "keywords": ["blog", "psychology", "static-site"],
+  "author": "",
+  "license": "ISC"
+}
