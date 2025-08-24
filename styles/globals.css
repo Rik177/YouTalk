@@ -5,6 +5,10 @@ body {
     font-weight: 400;
 }
 
+    *:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
 
 h1 {
     font-weight: bold;

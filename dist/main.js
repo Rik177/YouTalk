@@ -1,0 +1,1 @@
+document.addEventListener("mousedown",function(e){document.activeElement&&document.activeElement!==document.body&&document.activeElement.blur()});

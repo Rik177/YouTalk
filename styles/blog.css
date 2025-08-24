@@ -48,8 +48,8 @@
 }
 
 .main__categories__radio:focus + .main__categories-text {
-    box-shadow: 0 0 5px 5px var(--shadow-focused);
-    
+    box-shadow: none !important;
+    outline: none !important;
 }
 
 .main__articles {
