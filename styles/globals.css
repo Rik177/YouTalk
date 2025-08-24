@@ -24,10 +24,6 @@ h3 {
     line-height: 24px;
 }
 
-.logo:focus {
-    box-shadow: 0 0 5px 5px var(--shadow-focused);
-}
-
 @media (max-width: 414px) {
     h1 {
         font-size: 32px;

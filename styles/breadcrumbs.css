@@ -27,7 +27,3 @@
 .breadcrumbs__link:hover {
     color: var(--color-text-primary);
 }
-
-.breadcrumbs__link:focus {
-    color: var(--color-text-primary);
-}

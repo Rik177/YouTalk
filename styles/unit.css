@@ -10,11 +10,6 @@
     scale: 1.05;
 }
 
-.unit-button:focus {
-    box-shadow: 0 0 5px 5px var(--shadow-focused);
-}
-
-
 .main-unit__breadcrumbs {
     grid-column: span 2;
 }
@@ -100,9 +95,6 @@
 }
 
 .main-unit__list-link:hover {
-    color: var(--color-content-link-hover);
-}
-.main-unit__list-link:focus {
     color: var(--color-content-link-hover);
 }
 
@@ -237,10 +229,6 @@
 }
 
 .tag-links__link:hover {
-    text-decoration: underline;
-}
-
-.tag-links__link:focus {
     text-decoration: underline;
 }
 

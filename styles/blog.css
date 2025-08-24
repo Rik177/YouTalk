@@ -47,11 +47,6 @@
     background-color: var(--color-categories-selected-bg);
 }
 
-.main__categories__radio:focus + .main__categories-text {
-    box-shadow: 0 0 5px 5px var(--shadow-focused);
-    
-}
-
 .main__articles {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -76,10 +71,6 @@
 
 .main__articles-link:hover {
     transform: scale(1.02);
-}
-
-.main__articles-link:focus   {
-    box-shadow: 0 0 5px 5px var(--shadow-focused);;
 }
 
 .main__article {
@@ -168,10 +159,6 @@
 
 .main__button:hover {
     transform: scale(1.2);
-}
-
-.main__button:focus {
-    box-shadow: 0 0 5px 5px var(--shadow-focused);
 }
 
 @media (max-width: 1024px) {
