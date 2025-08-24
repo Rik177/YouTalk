@@ -1,14 +1,24 @@
 {
-  "name": "youtalk-blog",
+  "name": "youtalk-git",
   "version": "1.0.0",
-  "description": "YouTalk blog website",
-  "main": "index.html",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "echo 'Build completed - static files ready'",
-    "start": "echo 'Static site - open index.html in browser'",
-    "dev": "echo 'Development mode - open index.html in browser'"
+    "build": "webpack"
   },
-  "keywords": ["blog", "psychology", "static-site"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rik177/YouTalk.git"
+  },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rik177/YouTalk/issues"
+  },
+  "homepage": "https://github.com/Rik177/YouTalk#readme",
+  "devDependencies": {
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1"
+  }
 }
