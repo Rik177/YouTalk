@@ -50,12 +50,22 @@
     border-radius: 50%;
 }
 
-.form__input:focus-visible {
+/* Убираем старые стили фокуса из других файлов */
+.nav__list-link:focus,
+.breadcrumbs__link:focus,
+.footer__link:focus,
+.footer__commerical-link:focus,
+.tag-links__link:focus,
+.main-unit__data-link:focus,
+.main-unit__list-link:focus,
+.header__button:focus,
+.main__button:focus,
+.unit-button:focus,
+.form__button:focus,
+.logo:focus,
+.main__categories__radio:focus + .main__categories-text,
+.main__articles-link:focus,
+.footer__socials-item:focus {
+    box-shadow: none;
     outline: none;
-    box-shadow: 0 0 5px 5px var(--shadow-focused);
-}
-
-.header__burger:focus-visible {
-    outline: none;
-    box-shadow: 0 0 5px 5px var(--shadow-focused);
 }
